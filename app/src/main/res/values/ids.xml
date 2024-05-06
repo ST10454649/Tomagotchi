@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="startButton" type="id">to next page</item>
+    <item name="r_eating" type="id" />
+    <item name="r_eatin" type="id" />
+    <item name="r_eating_png" type="id" />
+    <item name="textView5" type="id" />
+    <item name="textView4" type="id" />
+    <item name="textView3" type="id" />
+    <item name="r_png" type="id" />
+    <item name="i_am_hungry" type="id" />
+    <item name="i_am_dirty_take_me_for_a_bath" type="id" />
+    <item name="i_am_bored_lets_go_play" type="id" />
+</resources>

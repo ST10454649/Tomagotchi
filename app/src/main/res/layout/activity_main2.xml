@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="107dp"
+      android:layout_height="52dp"
+      android:layout_marginTop="20dp"
+      android:text="@string/feed"
+      app:layout_constraintStart_toStartOf="@+id/imageView2"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2"
+      tools:ignore="MissingConstraints" />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="109dp"
+      android:layout_height="53dp"
+      android:layout_marginEnd="136dp"
+      android:text="@string/play"
+      app:layout_constraintEnd_toEndOf="@+id/imageView2"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteY="363dp" />
+
+  <Button
+      android:id="@+id/button4"
+      android:layout_width="103dp"
+      android:layout_height="51dp"
+      android:text="@string/clean"
+      app:layout_constraintEnd_toEndOf="@+id/imageView2"
+      tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck"
+      tools:layout_editor_absoluteY="363dp" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="385dp"
+      android:layout_height="329dp"
+      android:contentDescription="@string/todO"
+      app:srcCompat="@drawable/Rdog"
+      tools:ignore="MissingConstraints"
+      tools:layout_editor_absoluteX="13dp"
+      tools:layout_editor_absoluteY="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

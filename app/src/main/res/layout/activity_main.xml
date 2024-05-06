@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="390dp"
+        android:layout_height="346dp"
+        android:contentDescription="@string/toDo"
+        app:srcCompat="@drawable/R"
+        tools:ignore="MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/start"
+        android:textColorLink="#03FDDB"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:layout_width="277dp"
+        android:layout_height="52dp"
+        android:text="@string/welcome_lets_begin"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:includeFontPadding="false"
+        android:text="@string/tamagotchi_app"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="310dp"
+        android:layout_height="29dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/press_play_to_continue"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="443dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

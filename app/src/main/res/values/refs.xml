@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="r_eating" />
+    <drawable name="r_washed" />
+    <drawable name="r_playin" />
+</resources>

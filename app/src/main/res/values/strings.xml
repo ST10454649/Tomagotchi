@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ST10454649</string>
+    <string name="welcome">Welcome!</string>
+    <string name="tamagotchi_app">Tamagotchi App</string>
+    <string name="welcome_lets_begin">Welcome! lets begin.</string>
+    <string name="begin">Begin</string>
+    <string name="press_begin_to_continue">Press Begin to continue</string>
+    <string name="press_begin_below_to_continue" />
+    <string name="feed">Feed</string>
+    <string name="play">Play</string>
+    <string name="clean">Clean</string>
+    <string name="happy">Happy</string>
+    <string name="Clean">Clean</string>
+    <string name="hunger">Hunger</string>
+    <string name="todo">TODO</string>
+    <string name="Press_Begin_to_continue">Press Begin to continue</string>
+    <string name="todO">TODO</string>
+    <string name="Play">Play</string>
+    <string name="press_play_to_continue">Press play to continue</string>
+    <string name="toDo">TODO</string>
+    <string name="start">Start</string>
+    <string name="thank_you" />
+    <string name="play_with_me" />
+    <string name="nice_and_clean" />
+    <string name="play_that_was_fun" />
+    <string name="clean_after_playing" />
+</resources>
